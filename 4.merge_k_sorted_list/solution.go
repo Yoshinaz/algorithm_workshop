@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"samanun/algorithm_workshop/4.merge_k_sorted_list/sol"
+	"ksort/sol"
 )
 
 func main(){
@@ -22,7 +22,7 @@ func main(){
 }
 
 func solution(a [][]int)[]int{
-	return sol.CompareMinHeap(a)
+	return sol.Merge(a)
 }
 
 

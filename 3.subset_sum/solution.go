@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"samanun/algorithm_workshop/3.subset_sum/sol"
+	"subsetsum/sol"
 )
 
 func main(){

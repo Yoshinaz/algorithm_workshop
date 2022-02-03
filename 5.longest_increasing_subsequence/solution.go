@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"samanun/algorithm_workshop/5.longest_increasing_subsequence/sol"
+	"lis/sol"
 )
 
 
