@@ -26,8 +26,8 @@ func TestSolution(t *testing.T){
 			k: 100,
 		},
 		{
-			name: "not found",
-			expected: false,
+			name: "found 1",
+			expected: true,
 			a:[]int{1,2,3,4,5},
 			k: 14,
 		},
@@ -36,6 +36,42 @@ func TestSolution(t *testing.T){
 			expected: true,
 			a:[]int{1,2,3,4,5},
 			k: 10,
+		},
+		{
+			name: "not found",
+			expected: false,
+			a:[]int{28,32,87,65,98},
+			k: 66,
+		},
+		{
+			name: "found 28",
+			expected: true,
+			a:[]int{28,32,87,65,98},
+			k: 28,
+		},
+		{
+			name: "found 93",
+			expected: true,
+			a:[]int{28,32,87,65,98},
+			k: 93,
+		},
+		{
+			name: "found 180",
+			expected: true,
+			a:[]int{28,32,87,65,98},
+			k: 180,
+		},
+		{
+			name: "not found 208",
+			expected: false,
+			a:[]int{28,32,87,65,98},
+			k: 208,
+		},
+		{
+			name: "found 98",
+			expected: true,
+			a:[]int{28,32,87,65,98},
+			k: 98,
 		},
 	}
 	for _,v :=range test{

@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"samanun/algorithm_workshop/1-2sum/sol"
+	"samanun/algorithm_workshop/1.pair_sum/sol"
 )
 
 func main(){

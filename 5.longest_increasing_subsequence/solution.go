@@ -8,14 +8,14 @@ import (
 
 func main(){
 	input := []int{10, 22, 9, 33, 21, 50, 41, 60, 80}
-	fmt.Println(solution_findlength(input))
-	fmt.Println(solution_findsubsequence(input))
+	fmt.Println(solutionFindLength(input))
+	fmt.Println(solutionFindSubsequence(input))
 }
 
-func solution_findlength(a []int)int{
+func solutionFindLength(a []int)int{
 	return sol.LISLength(a)
 }
 
-func solution_findsubsequence(a []int)[]int{
+func solutionFindSubsequence(a []int)[]int{
 	return sol.LISSubsequence(a)
 }
