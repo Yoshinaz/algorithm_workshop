@@ -1,8 +1,8 @@
 package main
 
 import (
+	"eggdrop/sol"
 	"fmt"
-	"samanun/algorithm_workshop/6.egg_drop/sol"
 )
 
 func main(){
