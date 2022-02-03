@@ -3,6 +3,9 @@ package sol
 const MAX_INT = int(^uint(0)>>1)
 
 func CompareMin(a [][]int)[]int{
+	if len(a) == 0{
+		return []int{}
+	}
 	idx := make([]int,len(a))
 	result := make([]int,0)
 	for min:=getMin(a,idx);min!=MAX_INT;min=getMin(a,idx){

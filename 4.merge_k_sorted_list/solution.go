@@ -22,7 +22,7 @@ func main(){
 }
 
 func solution(a [][]int)[]int{
-	return sol.Merge(a)
+	return sol.ConcatArray(a)
 }
 
 
